@@ -1,5 +1,6 @@
 import styles from './Statistics.module.css';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 const randomColor = () => {
     return '#' + Math.floor(Math.random()*16777215).toString(16);
