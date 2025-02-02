@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
 import styles from './Friends.module.css';
 import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 
 const Friends = ({ friends }) => {
     const [hoveredFriendId, setHoveredFriendId] = useState(null);
