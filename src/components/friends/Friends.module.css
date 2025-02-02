@@ -1,0 +1,36 @@
+.friendsList {
+    max-width: 260px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.friendsListItem {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.status {
+    padding: 8px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.status.isOnline {
+    background-color: green;
+}
+
+.friendsImage {
+    width: 50px;
+}
+
+.friendsListItem.hovered {
+    border-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

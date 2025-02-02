@@ -1,0 +1,33 @@
+.transactionHistory {
+    max-width: 800px;
+    margin: 100px auto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    text-transform: capitalize;
+}
+
+.tableCell {
+    padding: 12px 60px;
+    text-align: center;
+}
+
+.tableTitle {
+    padding: 12px 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.transactionHistory, .tableCell, .tableTitle {
+    border: 1px solid #d3d3d3;
+    border-collapse: collapse;
+}
+
+.tableTitle {
+    background-color: #6495ED;
+}
+
+tr:nth-child(even) {
+    background-color: #E5E4E2;
+}

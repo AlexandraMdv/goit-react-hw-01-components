@@ -1,0 +1,45 @@
+.statistics {
+    max-width: 260px;
+    margin: 100px auto;
+}
+
+.statistics h2 {
+    text-transform: uppercase;
+    color: #777;
+    text-align: center;
+}
+
+.statList {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #fff;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    flex-grow: 1;
+    width: 50px;
+    background-color: aquamarine;
+    padding: 10px 20px;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.percentage {
+    margin-top: 4px;
+    font-size: 18px;
+}
